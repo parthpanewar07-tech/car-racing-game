@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Game from './pages/Game';
 import Leaderboard from './pages/Leaderboard';
 import Settings from './pages/Settings';
+import About from './pages/About';
 import Navbar from './components/Navbar';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/game" element={<Game />} />
                 <Route path="/leaderboard" element={<Leaderboard />} />
+                <Route path="/about" element={<About />} />
                 <Route path="/settings" element={<Settings />} />
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import { Trophy, Settings as SettingsIcon, Home, Play } from 'lucide-react';
+import { Trophy, Settings as SettingsIcon, Home, Play, Info } from 'lucide-react';
 import { GameContext } from '../context/GameContext';
 
 const Navbar = () => {
@@ -16,6 +16,7 @@ const Navbar = () => {
     { path: '/', icon: <Home size={20} />, label: 'Home' },
     { path: '/game', icon: <Play size={20} />, label: 'Play' },
     { path: '/leaderboard', icon: <Trophy size={20} />, label: 'Leaders' },
+    { path: '/about', icon: <Info size={20} />, label: 'About' },
     { path: '/settings', icon: <SettingsIcon size={20} />, label: 'Settings' },
   ];
 
