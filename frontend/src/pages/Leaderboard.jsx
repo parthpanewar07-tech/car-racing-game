@@ -20,7 +20,7 @@ const Leaderboard = () => {
   useEffect(() => {
     const fetchScores = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/leaderboard');
+        const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/leaderboard`);
         const result = await response.json();
         if (result.success && result.data) {
           setGlobalScores(result.data);
