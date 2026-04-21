@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Neon Rush Racing Game
 
 A modern, scalable Car Racing Web Game platform built with React, Tailwind CSS, and Node.js.
@@ -62,3 +63,6 @@ If you prefer to host the backend using Firebase Functions instead of a standalo
 - **Glassmorphism UI**: Modern aesthetic utilizing Tailwind CSS backdrop filters.
 - **Dynamic Difficulty**: Game speed and enemy frequency scales with score.
 - **Mobile First Controls**: Touch-based steering support for mobile users.
+=======
+# car-racing-game
+>>>>>>> 586c6b19495505681d2fa03ec913b4ef12cf42d7
